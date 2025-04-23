@@ -1,0 +1,77 @@
+File organization/summary from Doom Wiki:
+
+am_map.c, am_map.h	Automap
+d_englsh.h	Text strings used in the game (English versions)
+d_event.h	Event structure
+d_french.h	Text strings used in the game (French translations)
+d_items.c, d_items.h	A table which controls weapon animations
+d_main.c, d_main.h	System-independent main function, and setup code
+d_net.c, d_net.h	System-independent networking code
+doomdata.h	Basic data structures used to represent levels on disk
+doomdef.c, doomdef.h	Constants used throughout the source code
+doomstat.c, doomstat.h	Game mode variables
+doomtype.h	Common type definitions used throughout the source code
+d_player.h	Definition of the player_t structure, which represents players
+dstrings.c, dstrings.h	Quit messages
+d_textur.h	An unused data structure, shared in common with Rise of the Triad. Possibly left over from Shadowcaster engine.
+d_think.h	Definitions of thinker structures used for AI
+d_ticcmd.h	Player movement command definition (ticcmd_t)
+f_finale.c, f_finale.h	Finale screen code
+f_wipe.c, f_wipe.h	Screen melt effect
+g_game.c, g_game.h	High-level game stuff: transitions between game states, level exits, main game event responder, setting up new games, demo recording
+hu_lib.c, hu_lib.h	Library functions for heads-up display
+hu_stuff.c, hu_stuff.h	Heads-up display code
+i_main.c	Main function
+i_net.c, i_net.h	System-dependent network code (UDP Unix version)
+i_sound.c, i_sound.h	System-dependent sound code
+i_system.c, i_system.h	Miscellaneous system-dependent code (error handling, timer, etc.)
+i_video.c, i_video.h	System-dependent video code (X11 Unix version)
+info.c, info.h	Tables of data used by the game: sprite name table, thing data table, frame table
+m_argv.c, m_argv.h	Functions for searching the command line argument list
+m_bbox.c, m_bbox.h	Bounding boxes
+m_cheat.c, m_cheat.h	Cheat code parsing
+m_fixed.c, m_fixed.h	Fixed point number functions
+m_menu.c, m_menu.h	Menu
+m_misc.c, m_misc.h	Miscellaneous functions: text rendering, configuration file loading, writing screenshots
+m_random.c, m_random.h	Pseudo-random number generator
+m_swap.c, m_swap.h	Endianness conversion routines
+p_ceilng.c	Ceiling movement
+p_doors.c	Door movement
+p_enemy.c	Monster AI
+p_floor.c	Floor movement
+p_inter.c, p_inter.h	Object interaction: item pickup functions, object damage functions
+p_lights.c	Animated lights
+p_local.h	Global header for functions in the p_* section
+p_map.c	Object movement: collisions, teleportation, detecting for injury
+p_maputl.c	Library functions for p_map.c: blockmap code
+p_mobj.c, p_mobj.h	Basic object control functions: creating/destroying objects, movement, etc.
+p_plats.c	Lifts
+p_pspr.c, p_pspr.h	PSprite (weapon sprite) functions
+p_saveg.c, p_saveg.h	Savegames
+p_setup.c, p_setup.h	Loading of map data and setup
+p_sight.c	Line-of-sight/visibility checking for monsters
+p_spec.c, p_spec.h	Special effects: texture animations, line triggers, floor/ceiling/lighting changes
+p_switch.c	Wall switches
+p_telept.c	Handling of teleporter lines
+p_tick.c, p_tick.h	Base thinker code
+p_user.c	Player point-of-view code (weapon bobbing, player object thinker, etc.)
+r_bsp.c, r_bsp.h	BSP tree traversal
+r_data.c, r_data.h	Initialisation of data (textures, etc.) for use in the rendering code
+r_defs.h	Type definitions used in the rendering engine
+r_draw.c, r_draw.h	Fast drawing functions
+r_local.h	Includes all the r_* header files
+r_main.c, r_main.h	Entrypoint into rendering code
+r_plane.c, r_plane.h	Rendering of planes (floor/ceilings)
+r_segs.c, r_segs.h	Rendering of walls
+r_sky.c, r_sky.h	Sky rendering code (actually this is only some very basic initialisation code; the sky rendering code is really in r_plane.c)
+r_state.h	Definitions for global variables used by the rendering engine
+r_things.c, r_things.h	Rendering of sprites
+sounds.c, sounds.h	Sound/music tables
+s_sound.c, s_sound.h	System-independent sound code
+st_lib.c, st_lib.h	Library routines for status bar code
+st_stuff.c, st_stuff.h	Status bar main code
+tables.c, tables.h	Lookup tables for fast sine/cosine
+v_video.c, v_video.h	Generic image patch rendering (for menu, etc.)
+wi_stuff.c, wi_stuff.h	Intermission screens
+w_wad.c, w_wad.h	WAD loading code
+z_zone.c, z_zone.h	Zone memory allocator
