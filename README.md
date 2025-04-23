@@ -4,7 +4,7 @@
 
 ### How To Try This Project -- Quickstart Guide
 
-#### This is the correct `README.md`. The others are from the legacy code and have been left in because I think they're interesting to read.
+#### This is the correct `README.md`, along with a copy that lives in `DOOMtesting/README_FINALPROJECT.md`. The others are from the legacy code and have been left in because I think they're interesting to read.
 
 - This project *must* be run on a Linux machine due to limitiations with the original source code
 - Change directories into the `linuxdoom-1.10` directory
